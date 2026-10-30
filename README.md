@@ -1,6 +1,6 @@
 # 🎮 NEXUS ARENA (Entrega 2)
 
-> **Proyecto Intermodular 2.º SMR
+> Proyecto Intermodular 2.º SMR
 
 Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de red para **NEXUS ARENA**, un centro de alto rendimiento de eSports, entrenamiento competitivo y retransmisión en directo (Streaming).
 
@@ -35,13 +35,13 @@ Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de re
 ```text
 📦 nexus-arena-blueprint
  ┣ 📂 01_Documentacion
- ┃ ┣ 📜 Entrega_2_Blueprint_Tecnologico_NEXUS_ARENA.pdf
- ┃ ┗ 📜 Entrega_2_Blueprint_Tecnologico_NEXUS_ARENA.docx
+ ┃ ┣ 📜 Entrega 1 proyecto.pdf
+ ┃ ┗ 📜 Entrega 2 proyecto.pdf
  ┣ 📂 02_Diagramas_y_Planos
- ┃ ┣ 📜 Plano_Fisico_NexusArena.png
- ┃ ┗ 📜 Topologia_Logica_VLANs.png
+ ┃ ┣ 📜 Plano Fisico NexusArena.png
+ ┃ ┗ 📜 Topologia Logica VLANs.png
  ┣ 📂 03_Presupuesto_e_Inventario
- ┃ ┗ 📜 Presupuesto_E2_NexusArena_2026.xlsx
+ ┃ ┗ 📜 Presupuesto E2 NexusArena 2026.xlsx
  ┣ 📂 04_Prototipo_PacketTracer
- ┃ ┗ 📜 Prototipo_Red_NexusArena_v1.pkt
+ ┃ ┗ 📜 Prototipo Red NexusArena v1.pkt
  ┗ 📜 README.md
