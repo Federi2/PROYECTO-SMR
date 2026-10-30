@@ -1,6 +1,6 @@
-# 🎮 NEXUS ARENA — Blueprint Tecnológico (Entrega 2 / E3)
+# 🎮 NEXUS ARENA (Entrega 2)
 
-> **Proyecto Intermodular 2.º SMR** | **Centro:** DAVANTE MEDAC JAÉN | **Curso:** 2026/2027
+> **Proyecto Intermodular 2.º SMR
 
 Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de red para **NEXUS ARENA**, un centro de alto rendimiento de eSports, entrenamiento competitivo y retransmisión en directo (Streaming).
 
