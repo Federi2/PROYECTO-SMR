@@ -34,7 +34,7 @@ Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de re
 ## Estructura del Repositorio
 
 ```text
-📦 nexus-arena-blueprint
+📦 nexus-arena
  ┣ 📂 01_Documentacion
  ┃ ┣ 📜 Entrega 1 proyecto.pdf
  ┃ ┣ 📜 Entrega 2 proyecto.pdf
