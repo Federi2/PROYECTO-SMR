@@ -1,47 +1,54 @@
-# 🎮 NEXUS ARENA (Entrega 2)
+# NEXUS ARENA (Entrega 2)
 
-> Proyecto Intermodular 2.º SMR
+> Proyecto Intermodular · 2.º SMR · DAVANTE MEDAC JAÉN · Curso 2026/27  
+> **Equipo 1** · Fecha límite de entrega: 27/11/2026
 
-Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de red para **NEXUS ARENA**, un centro de alto rendimiento de eSports, entrenamiento competitivo y retransmisión en directo (Streaming).
+Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de red para **NEXUS ARENA**, un centro de eSports y streaming con 12 puestos gaming, 2 boxes de streaming, recepción y zona de espectadores.
 
 ---
 
-## 🎯 Resumen Ejecutivo del Proyecto
+## Resumen Ejecutivo del Proyecto
 
 | Parámetro | Especificación del Diseño |
 | :--- | :--- |
 | **Cliente** | NEXUS ARENA — Centro de eSports y Streaming |
-| **Alternativa Elegida** | **Alternativa 2:** Segmentación lógica por VLANs (802.1Q) + Servidor Central Virtualizado (Proxmox VE) |
-| **Presupuesto Máximo** | 18.000,00 € |
-| **Presupuesto Cerrado** | **17.533,99 € (IVA 21% incluido)** — *Margen de ahorro: +466,01 €* |
-| **Costes Periódicos (OPEX)** | **55,00 € / mes** (Fibra 1 Gbps Simétrica + Línea 4G/5G de Backup) |
-| **Condición de Éxito** | Partida competitiva y streaming operando sin mezclar tráfico de invitados (VLAN 40 aislada por ACL) |
+| **Alternativa Elegida** | **Alternativa 2:** Segmentación por VLANs + Servidor Virtualizado + Enlace de respaldo 4G/5G |
+| **Presupuesto Máximo** | 18.000,00 €  |
+| **Presupuesto Cerrado** | 17.236,20 € (Base Imponible) · IVA 21 %: 3.619,60 € · Total con IVA: 20.855,80 € |
+| **Costes Periódicos** | 28,00 € / mes |
+| **Condición de Éxito** | Partida simulada activa sin interferencias ni mezcla de tráfico de invitados con la red interna |
 
 ---
 
-## 👥 Equipo Técnico y Reparto de Responsabilidades
+## Equipo Técnico y Reparto de Responsabilidades
 
-| Integrante | Rol en el Equipo | Perfil Técnico (E2) | Tareas y Archivos Asociados |
+| Integrante | Rol en el Equipo | Perfil Técnico (E2) | Responsabilidad principal |
 | :--- | :--- | :--- | :--- |
-| **Pablo Lechuga Sánchez** | Coordinador | Arquitecto de Redes y Coordinación | Topología lógica, tabla IP/VLANs, scripts Cisco IOS (`.pkt`) y gestión de GitHub. |
-| **Fede Espinosa Sánchez** | Investigación | Admin. de Sistemas y Virtualización | Diseño del servidor `SRV-HV-01`, hipervisor, permisos de **Nextcloud** y backups RAID 1 + USB. |
-| **Adrián Aceituno Rodríguez** | Verificación | Ingeniero QA, Monitorización y Seguridad | Panel **Uptime Kuma**, contingencia 4G/5G, 5 pruebas de aceptación (`PA-01` a `PA-05`) y riesgos. |
-| **Andrés Garrido López** | Portavoz | Consultor Técnico y Presupuesto | Plano físico del local, inventario dimensionado, presupuesto Excel con IVA y guion del Pitch. |
+| **Pablo Lechuga Sánchez** | Coordinador | Coordinación y Finanzas | Control de presupuesto, seguimiento de estrategia y gestión de GitHub. |
+| **Fede Espinosa Sánchez** | Investigación | Redes y Conectividad | VLANs, reglas de firewall, Wi-Fi y failover 4G/5G. |
+| **Andrés Garrido López** | Portavoz | Sistemas y Virtualización | Hipervisor Proxmox VE, NAS, monitorización Uptime Kuma y copias. |
+| **Adrián Aceituno Rodríguez** | Verificación | Calidad y Seguridad | Pruebas de aceptación, riesgos, fichas técnicas y fuentes. |
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 📦 nexus-arena-blueprint
  ┣ 📂 01_Documentacion
  ┃ ┣ 📜 Entrega 1 proyecto.pdf
- ┃ ┗ 📜 Entrega 2 proyecto.pdf
+ ┃ ┣ 📜 Entrega 2 proyecto.pdf
+ ┃ ┗ 📜 Fichas_Individuales_Contribucion.pdf
  ┣ 📂 02_Diagramas_y_Planos
  ┃ ┣ 📜 Plano Fisico NexusArena.png
- ┃ ┗ 📜 Topologia Logica VLANs.png
+ ┃ ┣ 📜 Topologia Logica VLANs.png
+ ┃ ┗ 📜 Diagrama de Bloques.png
  ┣ 📂 03_Presupuesto_e_Inventario
- ┃ ┗ 📜 Presupuesto E2 NexusArena 2026.xlsx
+ ┃ ┣ 📜 Presupuesto E2 NexusArena 2026.xlsx
+ ┃ ┗ 📜 Fuentes_y_Precios.txt
  ┣ 📂 04_Prototipo_PacketTracer
  ┃ ┗ 📜 Prototipo Red NexusArena v1.pkt
  ┗ 📜 README.md
+```
+
+---
