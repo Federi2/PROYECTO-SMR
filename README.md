@@ -22,7 +22,7 @@ Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de re
 
 ## Equipo Técnico y Reparto de Responsabilidades
 
-| Integrante | Rol en el Equipo | Perfil Técnico (E2) | Responsabilidad principal |
+| Integrante | Rol en el Equipo | Perfil Técnico | Responsabilidad principal |
 | :--- | :--- | :--- | :--- |
 | **Pablo Lechuga Sánchez** | Coordinador | Coordinación y Finanzas | Control de presupuesto, seguimiento de estrategia y gestión de GitHub. |
 | **Fede Espinosa Sánchez** | Investigación | Redes y Conectividad | VLANs, reglas de firewall, Wi-Fi y failover 4G/5G. |
