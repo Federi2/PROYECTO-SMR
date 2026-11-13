@@ -52,7 +52,7 @@ Repositorio oficial de diseño técnico, presupuesto, planos y prototipado de re
 ```
 
 ---
-## 🌐 Arquitectura de Red (Segmentación Lógica)
+## Arquitectura de Red (Segmentación Lógica)
 
 Para cumplir con la QoS exigida por los streamers y las normativas de seguridad, el entorno se ha segmentado de la siguiente manera (comprobable en el archivo `.pkt` de la carpeta `04_Prototipo_PacketTracer`):
 
@@ -64,7 +64,7 @@ Para cumplir con la QoS exigida por los streamers y las normativas de seguridad,
 | **VLAN 40** | INVITADOS | `192.168.40.0/24` | Acceso Wi-Fi público **(Aislado de la red local)**. | 
 | **VLAN 50** | SERVIDORES | `192.168.50.0/24` | Entorno Proxmox, NAS (Nextcloud) y Uptime Kuma. | 
 
-## 🛡️ Seguridad y Verificación de la Condición de Éxito
+## Seguridad y Verificación de la Condición de Éxito
 
 En el prototipo de Packet Tracer se ha implementado una **Access Control List (ACL)** denominada `REGLAS_NEXUS` en la interfaz del router que gestiona a los invitados (`GigabitEthernet0/0.40`). 
 
